@@ -57,10 +57,24 @@ nav ul{
     border: none;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 10px;
     cursor: pointer;
-    filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.212));
+    filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.107));
+}
+.btn1{
+    background-color: none;
+    color:#FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.191));
 }
 .btn:hover{
     background-color: #00ff11;
@@ -273,6 +287,9 @@ footer textarea{
     }
 }
 .btn{
+    animation: borderPulse 2s infinite;
+}
+.btn1{
     animation: borderPulse 2s infinite;
 }
 .skill img{
