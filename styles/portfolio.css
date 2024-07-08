@@ -178,6 +178,12 @@ main section{
 }
 
 /* skills section styles */
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
 .skills-container{
     display: flex;
     gap: 24px;
@@ -188,6 +194,8 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.156));
+    width: 200px;
+    height: 307px;
 }
 
 
@@ -195,6 +203,12 @@ main section{
 .resume-container{
     display: flex;
     gap: 24px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:100px;
+    margin-right: 70px;
 }
 .experience-sub-title{
     font-size: 20px;
@@ -231,4 +245,23 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+
+
+@keyframes borderPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 128, 255, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 255, 0);
+    }
+}
+.btn{
+    animation: borderPulse 2s infinite;
+}
+.skill img{
+    animation : borderPulse 2s infinite;
 }
