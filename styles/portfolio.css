@@ -8,7 +8,12 @@
     font-variation-settings:
       "wdth" 100;
   }
-  
+
+.header{
+    background: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
 nav{
     display: flex;
     align-items: center;
@@ -54,4 +59,52 @@ nav ul{
     font-weight: 700;
     margin: 10px;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: #00ff11;
+}
+
+
+/* cover  */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+    align-items: center;
+
+
+}
+
+
+.content-text{
+    max-width: 580px;
+    margin: 10px;
+}
+
+.hardyimg{
+    width:584px;
+    height: 676px;
+}
+.subtitle{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin: 16px;
+    padding: 0;
+    margin-top: 10px;
+}
+.title{
+    font-size: 80px;
+    color: #030303;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.description{
+    font-size: 18px;
+    color: #474747;
+    font-weight: 200;
+    padding: 12px;
 }
